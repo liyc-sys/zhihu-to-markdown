@@ -14,6 +14,21 @@ This package is structured so it can be:
 - a local Chrome profile that can already open the target Zhihu page
 - Node.js 20+
 
+## Install
+
+Global install:
+
+```bash
+npm install -g zhihu-to-markdown
+```
+
+Run once if `agent-browser` is not already set up:
+
+```bash
+npm install -g agent-browser
+agent-browser install
+```
+
 ## CLI usage
 
 ```bash
@@ -66,4 +81,4 @@ skills/zhihu-to-markdown/scripts/export-zhihu-article.mjs
 
 - The exporter intentionally uses a real local Chrome profile because plain auth-state export was still blocked by Zhihu in testing.
 - This tool calls the external `agent-browser` CLI; it does not bundle a browser driver itself.
-- Before public release, choose a license and replace the current `UNLICENSED` placeholder.
+- The CLI is intended to be used either directly or through the bundled `skills/zhihu-to-markdown/` skill.

@@ -2,6 +2,14 @@
   "name": "zhihu-to-markdown",
   "version": "0.1.0",
   "description": "Export Zhihu column articles to local Markdown with downloaded images using agent-browser and a real Chrome profile.",
+  "homepage": "https://github.com/liyc-sys/zhihu-to-markdown#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyc-sys/zhihu-to-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liyc-sys/zhihu-to-markdown/issues"
+  },
   "type": "module",
   "bin": {
     "zhihu-to-markdown": "./bin/zhihu-to-markdown.js"
@@ -9,7 +17,8 @@
   "files": [
     "bin",
     "skills",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "engines": {
     "node": ">=20"
